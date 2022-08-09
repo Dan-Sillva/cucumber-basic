@@ -1,4 +1,4 @@
-# cucumber-study
+# cucumber-basic
 
  - Esta á a implementação do tutorial de 10 min (introdutório), da documentação oficial do cucumber. <br>
    (This is the implementation of the 10 min tutorial (introductory), the official cucumber documentation)
