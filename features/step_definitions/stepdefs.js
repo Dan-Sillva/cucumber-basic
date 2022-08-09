@@ -2,11 +2,15 @@ const assert = require('assert')
 const {Given, Then, When} = require('@cucumber/cucumber')
 
 function isItFriday(today){
-    return 'Nope'
+    return today === 'Friday' ? 'Yeah' : 'Nope'
 }
 
 Given('today is Sunday', function () {
     this.today = 'Sunday'
+});
+
+Given('today is Friday', function() {
+    this.today = 'Friday'
 });
 
 When('I ask whether it\'s Friday yet', function () {
